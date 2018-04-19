@@ -5,24 +5,50 @@ body {
   color: white;
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
   opacity: 0.9;
+
+  color: seashell;
+  text-align: center;
 }
+
+  /* Header */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px white solid;
+  border-bottom: 1px seashell solid;
+  height: 69px;
+  background-color: black;
+  width: 100%;
+  position: fixed;
 }
 
 img {
   height: 50px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 a {
-  color:white;
+  color:seashell;
   padding: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
+}
+
+  /* Main content */
+.hero-image {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 100px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  background-color: black;
+  width: 100%;
+  opacity: 0.8;
 }
