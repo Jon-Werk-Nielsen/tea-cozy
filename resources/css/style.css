@@ -52,3 +52,13 @@ a {
   width: 100%;
   opacity: 0.8;
 }
+
+.side-by-side-img {
+  background-image: url("../images/berryblitz.jpg");
+  height: 200px;
+  width: 300px;
+}
+.side-by-side-img2 {}
+.side-by-side-img3 {}
+.side-by-side-img4 {}
+.side-by-side-img5 {}
